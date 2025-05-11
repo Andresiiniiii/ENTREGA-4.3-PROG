@@ -268,7 +268,8 @@ def modificarInformacionCliente(tienda):
             print("No se ha modificado el estado de la membresía VIP.")
 
 
-    
+#FUNCIÓN MENÚ
+# Función que según la opción elegida por el usuario, ejecuta una función u otra.
 
 def menu(tienda):
     while True:
