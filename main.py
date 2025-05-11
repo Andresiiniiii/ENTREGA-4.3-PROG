@@ -148,7 +148,10 @@ class Tienda:
         for producto in self.Productos:
             listaTuplas.append((producto.Nombre, producto.Precio, producto.Stock))
         print(listaTuplas)
-    
+
+
+#FUNCIÓN MOSTRAR MENÚ
+# Función que imprime el menú y sera llamada por main donde, depende del número introducido, llama a una función o a otra. 
 
 def mostrarMenu():
     print("""
